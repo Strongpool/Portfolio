@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/main.css">
+    <script src="script/js/main.js" defer></script>
+    <link rel="stylesheet" href="../style/css/main.css">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <title>Портфолио</title>
+</head>
+<body>
+    <header>
+        <input type="button" value="Projects" class="projects-btn">
+        <img src="style/pic/profile.png" alt="Profile Image">
+        <div class="bio">
+            <h1>Max</h1>
+            <p>Всем привет! Я Макс, начинающий веб-разработчик. 
+               Здесь вы можете ознакомиться с моими проектами и связаться со мной.
+               Я оставил только часть своих проектов, так как считаю, что не 
+               все из них достойны внимания.
+            </p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Собираю небольшие сайты на HTML, CSS и JS.
+                Умею поднять тонкий сервер на Node, отдать данные по API и нарисовать список на клиенте.
+                Учебные проекты по кнопке "Projects": вход с токеном и каталог с поиском.
+            </p>
+        </section>
+
+        <section id="projects-overlay">
+            <div id="projects">
+                <input type="button" value="Close" class="projects-close">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="html/authorization.html">Authorization</a></li>
+                    <li><a href="html/catalog.html">Catalog</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact me on:</h2>
+            <p>Mail: <a href="mailto:maximcyposhov5@mail.ru">maximcyposhov5@mail.ru</a></p>
+            <p>Telegram: <a href="https://t.me/Strongpool">Strongpool</a></p>
+            <p>GitHub: <a href="https://github.com/Strongpool">Strongpool</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
